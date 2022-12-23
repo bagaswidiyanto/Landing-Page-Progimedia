@@ -1,0 +1,48 @@
+/*** MIN WIDTH ***/
+@media only screen and (min-width: 992px)  {
+    .needs .header-title .offer {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    .needs::before {
+        height: 90%;
+    }
+}
+
+
+
+
+
+/*** MAX WIDTH ***/
+@media only screen and (max-width: 991px) {
+    .feature .bg1 {
+        opacity: 0.2;
+    }
+
+    .feature .bg2{
+        opacity: 0.2;
+    }
+}
+@media only screen and (max-width: 767px) {
+    #portofolio-flters li {
+        margin-right: 10px !important
+    }
+
+    .testimoni .swiper-slide.swiper-slide-next {
+        transform: none;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .features-header img {
+        max-width: 25%;
+        margin-bottom: 10px;
+    }
+
+
+    .features .features-item img {
+        height: 15vw;
+        
+    }
+}
